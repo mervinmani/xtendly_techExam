@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.landingPgBtn{
+  background-color: white;
+  box-shadow: 10px;
+  width : 90%;
+  border-radius: 15px;
+}
+
+#div2{
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+#demo{
+  background-color: #8bc53f;
+  color: white;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px ;
+  border: 2px solid transparent;
+}
+
+#triangle{
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 20px solid #8bc53f;
+}
+
+strong{
+  color: #8bc53f;
+}
+
+#banner{
+  background-image: url(./images/FYSF5pEXoAIwzJg.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 20rem;
+  color: black;
+  text-shadow: 100rem;
+  height: calc(100vh - 10vmax)
+} 
+
+#button{
+  background-color: #8bc53f ;
+  color: white;
+}
+#button:hover{
+  background-color: #8bc53f ;
+}
